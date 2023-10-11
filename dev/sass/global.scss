@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,10 +11,49 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
 .template-container {
     display: flex;
+    margin: 50px auto;
+    max-width: 1820px;
+    gap: 50px;
+
 }
-.information{
+
+.view-box {
+    padding: 25px;
+    border-radius: 12px;
+    width: 100%;
+
+}
+
+.information {
+    --width: 450px;
     display: flex;
     flex-direction: column;
+    min-width: var(--width);
+    max-width: var(--width);
+    padding: 25px;
+    border-radius: 12px;
+
+    &-title {
+        margin-bottom: 18px;
+    }
+
+    &-option-list {
+        list-style: none;
+    }
+
+    .option-item {
+        margin-bottom: 12px;
+    }
+}
+
+.view-svg {
+    width: 100%;
+    height: auto;
+}
+.name{
+    font-size: 30px;
+    text-decoration: none;
 }

@@ -1,3 +1,61 @@
 h1 {
     color: blue;
 }
+
+#Vector-4 {
+    fill: #fced6a00;
+    fill-opacity: 0.46;
+    stroke: #fbfe4e00;
+    stroke-width: 2px;
+    transition: .3s;
+    cursor: pointer;
+
+    &:hover {
+        fill: #FCEE6A;
+        stroke: #FAFE4E;
+    }
+}
+
+#Vector-2 {
+    fill: #ed78be00;
+    fill-opacity: 0.58;
+    stroke: #eb21d700;
+    stroke-width: 2px;
+    transition: .3s;
+    cursor: pointer;
+
+    &:hover {
+        fill: #ED78BE;
+        stroke: #EB21D7;
+    }
+}
+
+#Vector-1 {
+    fill: #d9893e00;
+    fill-opacity: 0.55;
+    stroke: #eb862100;
+    stroke-width: 2px;
+    transition: .3s;
+    cursor: pointer;
+
+    &:hover {
+        fill: #D9893E;
+        stroke: #EB8621;
+    }
+
+}
+
+.sold {
+    fill: #f7052100;
+    fill-opacity: 0.51;
+    stroke: #f7052100;
+    stroke-width: 2px;
+    transition: .3s;
+    cursor: pointer;
+
+    &:hover {
+        fill: #f70522;
+        stroke: #f70522;
+    }
+
+}
