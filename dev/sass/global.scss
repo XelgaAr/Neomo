@@ -4,9 +4,19 @@
     padding: 0;
 }
 
+h3 {
+    font-size: 24px;
+}
 
+a,
+h3,
+b {
+    color: #4a4949;
+}
 
 body {
+    font-family: RobotoSlab;
+
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -53,7 +63,8 @@ body {
     width: 100%;
     height: auto;
 }
-.name{
+
+.name {
     font-size: 30px;
     text-decoration: none;
 }
